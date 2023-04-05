@@ -1,0 +1,1071 @@
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+/* header */
+
+
+
+header img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+header {
+    margin: 20px;
+}
+
+.button .fa-magnifying-glass {
+    display: none
+}
+
+main {
+    margin: 20px;
+}
+
+
+
+.navbar {
+
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+
+    border-top-style: solid;
+    border-top-width: 3.1px;
+    color: #0065FC;
+}
+
+header h2 {
+    margin-bottom: 7px;
+}
+
+/* main p {
+    margin-top: 5px;
+} */
+
+
+
+
+
+/* search bar */
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: fit-content;
+    border-radius: 15px;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+form i {
+    padding-right: 18px;
+}
+
+.fa-location-dot {
+    padding: 20px;
+}
+
+
+.searchbar input {
+    border: solid #F2F2F2;
+    border-right: none;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+button {
+    background-color: #0065FC;
+    color: white;
+    padding: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0;
+
+}
+
+
+
+
+/* Filters */
+
+
+.filterSection>div {
+    display: flex;
+}
+
+.filters {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #F2F2F2;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+
+.filters p {
+    padding: 10px;
+}
+
+.iconFilters {
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 20px;
+    color: #0065fc;
+    margin-left: -17px;
+}
+
+.filters:hover {
+    background-color: #DEEBFF;
+    box-shadow:
+        2px 5px 10px 0px #0001,
+        2px 4px 8px 0px #0001;
+    transform: translateY(-5px);
+    transition: 0.5s;
+    color: #0065fc;
+}
+
+.reverse {
+    display: flex;
+}
+
+.romantic-filter {
+    position: relative;
+    top: 0;
+    left: 1.3px;
+}
+
+
+
+
+/* info */
+
+.info {
+    display: flex;
+    align-items: baseline;
+}
+
+.info i {
+    color: #0065FC;
+    border-radius: 100%;
+    border: 1px solid gray;
+    font-size: 13px;
+    padding: 3px 7px
+}
+
+.info p {
+    margin: 10px;
+    margin-right: 75%;
+}
+
+
+
+
+/* accommmodation section */
+
+.accommodation-section {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+
+.accommodations {
+    flex: 2;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-right: 40px;
+    padding: 20px 0;
+
+}
+
+
+
+
+.accommodations h2 {
+    padding-left: 40px;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+
+.accommodation-card {
+    background-color: white;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-bottom: 30px;
+
+}
+
+.accommodations a {
+    text-decoration: none;
+}
+
+.accommodations a:visited {
+    color: black;
+}
+
+
+
+.card-image {
+    width: 240px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+.card-accommodation-1 {
+    background-image: url("../images/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+
+}
+
+.card-accommodation-2 {
+    background-image: url("../images/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+
+}
+
+.card-accommodation-3 {
+    background-image: url("../images/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+
+}
+
+.card-accommodation-4 {
+    background-image: url("../images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+
+}
+
+.card-accommodation-5 {
+    background-image: url("../images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+
+}
+
+.card-accommodation-6 {
+    background-image: url("../images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+
+}
+
+.show-more {
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.show-more a {
+    text-decoration: none;
+
+}
+
+.show-more a:hover {
+    color: rgb(53, 53, 53);
+}
+
+
+
+/* most popular */
+
+.most-popular {
+    flex: 1;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+
+.most-popular h2 {
+    padding-left: 40px;
+}
+
+.most-popular-title .fa-star {
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.most-popular-card {
+    display: flex;
+    background-color: white;
+    padding: 6px;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+
+}
+
+.card-images {
+    flex: 1;
+    width: 140px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-right: 30px;
+}
+
+.card-most-popular-1 {
+    background-image: url(../images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.card-most-popular-2 {
+    background-image: url(../images/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.card-most-popular-3 {
+    background-image: url(../images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.contents {
+    flex: 2;
+    padding-top: 10px;
+}
+
+.contents p {
+    padding-bottom: 33px;
+}
+
+.most-popular-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.most-popular a:visited {
+    color: black;
+}
+
+
+.most-popular a {
+    text-decoration: none;
+}
+
+
+
+
+/* Stars */
+
+.accommodation-card i {
+    color: #0065FC;
+}
+
+.accommodation-card .empty-star {
+    color: gray;
+}
+
+.most-popular-card i {
+    color: #0065FC;
+}
+
+.most-popular-card .empty-star {
+    color: gray;
+}
+
+
+
+
+
+/* Activies in Marseille */
+
+.activities-card {
+
+    background-color: white;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+}
+
+
+.activities-card-item-large {
+
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.activities-card-item {
+
+    width: 350px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+.activities-content {
+    padding: 20px;
+}
+
+.activities-column {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 0 80px;
+}
+
+.activities-row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.activities-img-1 {
+    background-image: url(../images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+
+
+.activities-img-2 {
+    background-image: url(../images/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+
+
+
+.activities-img-3 {
+    background-image: url(../images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+
+
+
+.activities-img-4 {
+    background-image: url(../images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+
+
+
+.activities-img-5 {
+    background-image: url(../images/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+
+
+
+.activities-img-6 {
+    background-image: url(../images/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+}
+
+
+
+#activities-section {
+    padding-top: 50px;
+}
+
+#activities-section a:visited {
+    color: black;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    padding: 0 20px 20px 20px;
+
+
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content a:visited {
+    color: black;
+}
+
+.footer-content a:hover {
+    font-weight: bolder;
+}
+
+.about {
+    padding-top: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.our-accommodation {
+    padding-top: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+
+}
+
+.assistance {
+    padding-top: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+
+}
+
+.footer-content h3 {
+    margin-bottom: 27px;
+}
+
+
+
+/* Media query */
+
+@media only screen and (max-width: 549px) {
+    .romantic-filter {
+        position: relative;
+        top: -52px !important;
+        left: -40px !important;
+
+    }
+}
+
+
+
+/* header */
+
+@media only screen and (max-width: 767px) {
+
+    header div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    header h2 {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin: 0 20px !important;
+    }
+
+    header img {
+        padding-left: 26px;
+    }
+
+    main {
+        margin: 0 !important;
+    }
+
+    main p {
+        margin: 0;
+    }
+
+    .downtown {
+        margin: 0 20px;
+        margin-top: 10px;
+    }
+
+
+    .info {
+        padding-left: 20px;
+    }
+
+    .info p {
+        margin: 10px;
+        margin-right: 0;
+    }
+
+    .button {
+        border-radius: 14px !important;
+        width: 60px;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .accommodations {
+        display: flex !important;
+
+    }
+
+    .accommodations a {
+        width: 100% !important;
+    }
+
+    .activities-column,
+    .accommodations,
+    .activities-row {
+        gap: 1.3em !important;
+    }
+
+    .navbar {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 0;
+        padding-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    nav a {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        width: 50%;
+        text-decoration: none;
+        color: black;
+        border-bottom-style: solid;
+        border-bottom-width: 3.1px;
+        border-bottom-color: #F2F2F2;
+
+    }
+
+    nav a:hover {
+
+        border-bottom-style: solid;
+        border-bottom-width: 3.1px;
+        border-top-style: none;
+        border-bottom-color: #0065FC;
+        color: #0065FC;
+
+    }
+
+
+    .searchbar {
+        display: flex;
+        align-items: center;
+        background-color: #F2F2F2;
+        width: fit-content;
+        border-radius: 15px;
+        margin: 20px 20px 0 20px;
+
+    }
+
+
+
+    .searchbar input {
+        border: solid #F2F2F2;
+        border-right: none;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .button .fa-magnifying-glass {
+        display: inline;
+
+    }
+
+    .searchText {
+        display: none;
+    }
+
+    button {
+        background-color: #0065FC;
+        color: white;
+        padding: 15px;
+        padding-top: 20px;
+        font-size: 20px;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin: 0;
+
+    }
+
+
+
+
+
+
+    .filterSection {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+
+
+
+    .filterSection>h3 {
+        line-height: 1;
+
+    }
+
+    .filterSection>div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filters {
+        padding: 0 5px 0 15px;
+        width: fit-content;
+        margin: 5px 15px 5px 0;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: reverse;
+
+    }
+
+    /* .romantic-filter {
+        position: relative;
+        top: -52px !important;
+        left: -40px !important;
+    } */
+
+    .filter-family {
+        width: 170px;
+    }
+
+
+
+
+
+
+    .accommodation-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accommodations {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 0px;
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .accommodations h2 {
+        margin: 0 !important;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .show-more {
+        padding-left: 0;
+    }
+
+
+    .activities-card-item-large,
+    .accommodation-card,
+    .activities-card,
+    .activities-column a,
+    .activities-card-item,
+    .wrapper,
+    .activities-column {
+        margin: 0 !important;
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .most-popular {
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .most-popular h2 {
+        padding: 33px 0 20px 0 !important;
+        margin: 0px !important;
+        margin-left: 20px !important;
+    }
+
+    .most-popular-title .fa-star {
+        padding: 20px;
+    }
+
+
+
+    .most-popular-card {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .accommodation-section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 0 !important;
+        border-radius: 0;
+    }
+
+
+
+    .card-image {
+        width: 100% !important;
+    }
+
+    .accommodation-card {
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+    }
+
+    .card-image {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .most-popular {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    #activities-section {
+        margin: 15px;
+    }
+
+    .activities-column {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .activities-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .activities-card {
+        margin-top: 40px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        max-width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item,
+    .activities-card-item-large {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    .info P {
+        margin-right: 48%;
+    }
+
+    .accommodations {
+        width: 100%;
+    }
+
+    .accommodation-card {
+        margin-right: 0px;
+        margin-left: 10%;
+
+    }
+
+    .accommodation-section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #activities-section {
+        margin: 15px;
+    }
+
+    .activities-column {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .activities-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .activities-card {
+        margin-top: 40px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        max-width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .activities-card-item,
+    .activities-card-item-large {
+        width: 640px;
+        height: 185px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .reverse {
+        display: flex;
+
+    }
+
+    .romantic-filter {
+        position: relative;
+        top: 0;
+        left: 1.3px;
+    }
+}
